@@ -2,7 +2,7 @@
 
 阅读《深度学习入门：基于Python的理论与实现》时，实现的代码。
 
-官方示例代码：[deep-learning-from-scratch]https://github.com/oreilly-japan/deep-learning-from-scratch)
+官方示例代码：[deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
 
 # 环境配置
 
@@ -47,5 +47,6 @@ conda env update -f environment.yml
 
 - 新建Terminal，默认会打开`Anaconda Prompt (DeepLearningFromScratch)`，相当于打开`Anaconda Prompt`，并激活`DeepLearningFromScratch`虚拟环境
     - 对应的配置在`.vscode\settings.json`中
+
 
 - 选择Python解释器：`Ctrl+Shift+P` -> `Python: Select Interpreter` -> `Python 3.13.5 (DeepLearningFromScratch)`
