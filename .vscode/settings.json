@@ -1,0 +1,24 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": null, // Remove Git Bash terminal
+        "Anaconda Prompt": {
+            "path": "${env:WINDIR}\\System32\\cmd.exe",
+            "args": [
+                "/K",
+                "${env:CONDA_ROOT}\\Scripts\\activate.bat", // Activate base venv
+            ],
+            "icon": "terminal",
+            "overrideName": true
+        },
+        "Anaconda Prompt (DeepLearningFromScratch)": {
+            "path": "${env:WINDIR}\\System32\\cmd.exe",
+            "args": [
+                "/K",
+                "${env:CONDA_ROOT}\\Scripts\\activate.bat DeepLearningFromScratch", // Activate DeepLearningFromScratch venv
+            ],
+            "icon": "terminal",
+            "overrideName": true
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Anaconda Prompt (DeepLearningFromScratch)", // Default terminal
+}

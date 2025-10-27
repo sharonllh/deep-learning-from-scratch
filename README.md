@@ -16,6 +16,15 @@ win11, x64
 - Python version：3.13.5.final.0
 - Conda version：25.5.1
 
+## 添加Miniconda路径到环境变量中
+
+在系统环境变量中，添加Miniconda路径：
+
+```
+XXX\miniconda3
+XXX\miniconda3\Scripts
+```
+
 ## 创建并激活虚拟环境
 
 - 创建虚拟环境：
